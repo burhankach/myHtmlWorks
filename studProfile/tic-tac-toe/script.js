@@ -66,7 +66,7 @@ const boxEnable = () => {
 const resetGame = () => {
     turn = true;
     boxEnable();
-    msgContai.classList.add("hide");
+    msgCon.classList.add("hide");
 }
 
 rstBtn.addEventListener("click", resetGame);

@@ -4,9 +4,10 @@
 }
 
 body {
-    background-color: #77aca2;
-    color: #031926;
+    background-color: #151e3f;
+    color: #f2f3d9;
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .msg-container {
@@ -19,7 +20,7 @@ body {
 }
 
 .msg {
-    color: #031926;
+    color: #f2f3d9;
     font-size: 3rem;
     font-weight: 600;
 }
@@ -27,11 +28,10 @@ body {
 .new-btn {
     height: 8vh;
     width: 15vw;
-    color: #f4e9cd;
-    background-color: #031926;
+    color: #f2f3d9;
+    background-color: #030027;
     box-shadow: 0.3rem 0.3rem 0.3rem rgba(0, 0, 0, 0.2);
-    font-family: serif;
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: 600;
     border: none;
     border-radius: 0.3rem;
@@ -46,7 +46,8 @@ body {
 
 h1 {
     height: 70px;
-    background-color: #f4e9cd;
+    background-color: #f2f3d9;
+    color: #030027;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -65,23 +66,28 @@ h1 {
 .box {
     height: 18vmin;
     width: 18vmin;
-    color: #f4e9cd;
-    background-color: #468189;
+    color: #fff;
+    background-color: #5e696e;
     box-shadow: 0.3rem 0.3rem 0.5rem rgba(0, 0, 0, 0.1);
     font-size: 8vmin;
-    font-family: sans-serif;
+    font-weight: 900;
     border: none;
     border-radius: 0.5rem;
+    transition: all 0.3s ease;
+}
+
+.box:hover {
+    background-color: black;
+    border: solid white;
 }
 
 .rst-btn {
     height: 8vh;
     width: 15vw;
-    color: #f4e9cd;
-    background-color: #031926;
+    color: #f2f3d9;
+    background-color: #030027;
     box-shadow: 0.3rem 0.3rem 0.3rem rgba(0, 0, 0, 0.2);
-    font-family: serif;
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: 600;
     border: none;
     border-radius: 0.3rem;
