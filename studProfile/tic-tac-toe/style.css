@@ -21,17 +21,17 @@ body {
 
 .msg {
     color: #f2f3d9;
-    font-size: 3rem;
+    font-size: 1rem;
     font-weight: 600;
 }
 
 .new-btn {
-    height: 8vh;
-    width: 15vw;
+    height: 8vmin;
+    width: 20vmin;
     color: #f2f3d9;
     background-color: #030027;
     box-shadow: 0.3rem 0.3rem 0.3rem rgba(0, 0, 0, 0.2);
-    font-size: 1.5rem;
+    font-size: 0.7rem;
     font-weight: 600;
     border: none;
     border-radius: 0.3rem;
@@ -69,11 +69,11 @@ h1 {
     color: #fff;
     background-color: #5e696e;
     box-shadow: 0.3rem 0.3rem 0.5rem rgba(0, 0, 0, 0.1);
-    font-size: 8vmin;
+    font-size: 2rem;
     font-weight: 900;
     border: none;
     border-radius: 0.5rem;
-    transition: all 0.3s ease;
+    transition: 0.3s ease;
 }
 
 .box:hover {
@@ -82,12 +82,12 @@ h1 {
 }
 
 .rst-btn {
-    height: 8vh;
-    width: 15vw;
+    height: 8vmin;
+    width: 20vmin;
     color: #f2f3d9;
     background-color: #030027;
     box-shadow: 0.3rem 0.3rem 0.3rem rgba(0, 0, 0, 0.2);
-    font-size: 1.5rem;
+    font-size: 0.7rem;
     font-weight: 600;
     border: none;
     border-radius: 0.3rem;

@@ -3,7 +3,8 @@ let rstBtn = document.querySelector(".rst-btn");
 let newBtn = document.querySelector(".new-btn");
 let msgCon = document.querySelector(".msg-container");
 let msg = document.querySelector(".msg");
-
+const clickSound = new Audio("mouse-click-by-ek6_VR0O6PL.mp3");
+const winSound = new Audio("low-battery-powering-off.mp3");
 let turn = true;
 
 let winPtn = [
@@ -19,9 +20,11 @@ let winPtn = [
 
 boxes.forEach((box) => {
     box.addEventListener("click", () => {
+        clickSound.play();
         if (turn === true) { //player Os turn
             box.innerHTML = "O";
             turn = false;
+            clickSound.play();
         } else { //player Xs turn
             box.innerHTML = "X";
             turn = true;
@@ -48,7 +51,7 @@ const showWin = (winner) => {
     msg.innerHTML = `Congratulation! - Winner is Player ${winner}`;
     msgCon.classList.remove("hide");
     boxDisable();
-
+    winSound.play();
 }
 
 const boxDisable = () => {

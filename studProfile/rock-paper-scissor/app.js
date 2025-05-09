@@ -5,10 +5,10 @@ const msg = document.querySelector(".msg");
 
 // SOUND used in buttons .....................................
 let sound = [
-    new Audio("Sounds/dry-fart.mp3"),
-    new Audio("Sounds/gago-effect-by-cong-tv.mp3"),
+    new Audio("Sounds/mouse-click-by-ek6_VR0O6PL.mp3"),
+    new Audio("Sounds/mouse-click-by-ek6_VR0O6PL.mp3"),
     new Audio("Sounds/aayein-meme.mp3"),
-    new Audio("Sounds/indian-song.mp3"),
+    new Audio("Sounds/low-battery-powering-off.mp3"),
     new Audio("Sounds/sound-baord-spongebob.mp3"),
     new Audio("Sounds/gta-san-andreas-ah-shit-here-we-go-again_BWv0Gvc.mp3")
 ]

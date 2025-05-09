@@ -16,7 +16,7 @@ header {
     background: linear-gradient(to right, #f6ff00, #feffbc, #ffa200, #f6ff00);
     text-align: center;
     text-transform: uppercase;
-    font-size: 2rem;
+    font-size: 1.2rem;
     font-weight: bold;
     background-size: 200%;
     background-clip: text;
@@ -54,9 +54,9 @@ header {
     transition: .2s ease;
 }
 
-.p-btn:hover {
+.p-btn:hover:focus {
     background-color: rgb(255, 196, 0);
-    border-radius: 0%;
+    border-radius: 5vmin;
     border: 1vmin solid white;
 }
 
@@ -69,15 +69,15 @@ header {
     display: flex;
     justify-content: center;
     gap: 5vmin;
+    font-size: 1rem;
 }
 
 .count {
     padding: 2vmin;
     background-color: rgb(247, 189, 0);
-    font-size: 1.5rem;
     font-weight: bold;
     border-radius: 2vmin;
-    box-shadow: 0 0 20vmin 0 rgb(250, 212, 20);
+    box-shadow: 0 0 2vmin 0 rgb(250, 212, 20);
 }
 
 .msg {
@@ -86,7 +86,7 @@ header {
     width: 100vw;
     background-color: rgb(0, 0, 0);
     color: #f5f5f5;
-    font-size: 2rem;
+    font-size: 1rem;
     font-weight: bold;
     text-align: center;
 }
@@ -97,19 +97,19 @@ header {
 }
 
 #rst-btn {
-    padding: 2vmin;
-    width: 25vmin;
+    padding: 1vmin;
+    width: 15vmin;
     background-color: rgb(247, 189, 0);
     color: #000000;
-    font-size: 1rem;
+    font-size: 0.6rem;
     font-weight: bold;
     text-align: center;
     border: none;
-    border-radius: 2vmin;
+    border-radius: 1vmin;
     transition: 0.3s ease;
 }
 
-#rst-btn:hover {
+#rst-btn:hover:focus {
     background-color: #feffbc;
     transform: scale(1.1);
 }
