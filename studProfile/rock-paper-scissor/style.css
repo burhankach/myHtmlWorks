@@ -1,0 +1,115 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: #2c2c2c;
+    display: flex;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    padding-top: 10vmin;
+    height: 10vmin;
+    background: linear-gradient(to right, #f6ff00, #feffbc, #ffa200, #f6ff00);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: bold;
+    background-size: 200%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animate-gradient 2.5s linear infinite;
+}
+
+@keyframes animate-gradient {
+    to {
+        background-position: 200%;
+    }
+}
+
+
+/* Button  part ...............................*/
+
+#play-btn {
+    height: 30vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vmin;
+}
+
+.p-btn {
+    height: 20vmin;
+    width: 20vmin;
+    background-color: #feffbc;
+    color: #f5f5f5;
+    border: none;
+    border: 1vmin solid white;
+    border-radius: 10vmin;
+    font-size: 3rem;
+    transition: .2s ease;
+}
+
+.p-btn:hover {
+    background-color: rgb(255, 196, 0);
+    border-radius: 0%;
+    border: 1vmin solid white;
+}
+
+
+/* score part ...............................*/
+
+.score {
+    padding: 10vmin;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    gap: 5vmin;
+}
+
+.count {
+    padding: 2vmin;
+    background-color: rgb(247, 189, 0);
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 2vmin;
+    box-shadow: 0 0 20vmin 0 rgb(250, 212, 20);
+}
+
+.msg {
+    margin-top: 5vmin;
+    padding: 2vmin;
+    width: 100vw;
+    background-color: rgb(0, 0, 0);
+    color: #f5f5f5;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.r-btn {
+    display: flex;
+    justify-content: center;
+}
+
+#rst-btn {
+    padding: 2vmin;
+    width: 25vmin;
+    background-color: rgb(247, 189, 0);
+    color: #000000;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    border-radius: 2vmin;
+    transition: 0.3s ease;
+}
+
+#rst-btn:hover {
+    background-color: #feffbc;
+    transform: scale(1.1);
+}
