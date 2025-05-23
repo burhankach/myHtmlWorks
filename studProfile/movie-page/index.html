@@ -6,29 +6,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="card.css">
 </head>
 
 <body>
-    <main class="flex-align">
+    <header class="flex-align">
+
+        <!-- navigatiuon bar ##################################### -->
+        <!-- logo section......................................... -->
         <div class="nav-bar flex-align">
             <div class="logo flex-align">
-                E
+                <img src="Logo pic/E-Logo.jpg" alt="logo">
             </div>
+            <!-- search bar section .............................. -->
             <div class="search-bar flex-align">
                 <input type="text" id="search" placeholder="Search...">
+                <button type="submit" class="search-sub">&#128269</button>
             </div>
+            <!-- Drop down list................................... -->
             <div class="btn flex-align">
                 <div class="line"></div>
-                <button class="btn-yr" id="btn2025">2025</button>
-                <button class="btn-yr" id="btn2024">2024</button>
-                <button class="btn-yr" id="btn2023">2023</button>
-                <button class="btn-yr" id="btn-web">Webseries</button>
-                <button class="btn-yr" id="btn-ani">Animated</button>
-
+                <label for="year-btn">CATEGORY</label>
+                <select id="year-btn" id="year-btn">
+                    <option value="2025" id="btn2025">2025</option>
+                    <option value="2024">2024</option>
+                    <option value="2023">2023</option>
+                    <option value="web">Webseries</option>
+                    <option value="ani">Animated</option>
+                </select>
             </div>
+
         </div>
-        <div id="movie-container" class="flex-align"></div>
+    </header>
+
+    <main>
+        <div class="hero-section">
+            <!-- hero img section........................ -->
+            <section class="hero">
+                <h1>Wellcome To Movie World!</h1>
+            </section>
+        </div>
+
+        <div id="movie-container" class="flex-align">
+            <!-- ..........Not Permenent............ -->
+            <!-- <div class="movie-card">
+                <img src="" alt="">
+                <h3>Movie name Here</h3>
+            </div>
+            <div class="movie-card">
+                <img src="" alt="">
+                <h3>Movie name Here</h3>
+            </div> -->
+            <!-- ...................... -->
+        </div>
     </main>
+
     <footer>
         <div class="text-box">
             <p>
@@ -36,7 +68,11 @@
             </p>
         </div>
     </footer>
-    <script src=" app.js "></script>
+
+    <div id="scripts">
+        <script src="logic.js"></script>
+        <script src="name.js"></script>
+    </div>
 </body>
 
 </html>
