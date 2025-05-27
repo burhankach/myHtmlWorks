@@ -47,4 +47,36 @@ function printCards(titles, images) {
 
 const cards = document.querySelectorAll("movie-card");
 
-//.......................................................................
+//.....................................................................
+// //Selection Dropdown list ............................
+
+const selector = document.getElementById("year-btn");
+
+selector.addEventListener("change", function() {
+    const selected = this.value;
+    const ids = movieSets[selected];
+    if (ids) {
+        loadMovies(ids);
+    }
+});
+
+async function loadMovies(ids) {
+    const titles = [];
+    const images = [];
+
+    for (const id of ids) {
+        const res = await fetch(`https://api.themoviedb.org/3/movie/${id}`, {
+            headers: {
+                Authorization: `Bearer ${token}`,
+                "Content-Type": "application/json"
+            }
+        });
+        const movie = await res.json();
+        titles.push(movie.title);
+        images.push(movie.poster_path ? `https://image.tmdb.org/t/p/w500${movie.poster_path}` :
+            "https://via.placeholder.com/200x300?text=No+Image");
+
+        printCards(titles, images);
+
+    };
+}

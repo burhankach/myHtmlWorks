@@ -1,171 +1,181 @@
- * {
-     margin: 0;
-     padding: 0;
-     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
- }
- 
- body {
-     background-color: #1b1b1b;
- }
- 
- header {
-     flex-direction: column;
- }
- /* nav bar section  ###############################################*/
- 
- .flex-align {
-     display: flex;
-     align-items: center;
-     justify-content: center;
- }
- 
- .nav-bar {
-     height: 10vmin;
-     background-color: #3f2a56;
-     justify-content: space-evenly;
-     width: 100%;
- }
- /* logo ..................................................  */
- 
- .logo {
-     margin-left: 2vmin;
- }
- 
- .logo img {
-     height: 6vmin;
-     width: 6vmin;
-     border: 0.5vmin solid black;
-     border-radius: 5vmin;
- }
- /* search bar ..........................................  */
- 
- .search-bar {
-     width: 50%;
-     padding: 0vmin 3vmin;
-     margin: 0vmin 3vmin;
-     border-left: 0.5vmin solid white;
-     border-right: 0.5vmin solid white;
- }
- 
- .search-bar input {
-     padding: 1vmin 2vmin;
-     height: 3vmin;
-     width: 100%;
-     background-color: #000000;
-     color: #ffffff;
-     border: 0.3vmin solid white;
-     border-radius: 5vmin 0vmin 0vmin 5vmin;
-     font-size: 3vmin;
- }
- 
- .search-bar input:hover {
-     border: 0.3vmin solid #fffb00;
- }
- 
- .search-sub {
-     height: 5.2vmin;
-     width: 8vmin;
-     margin-left: 0.7vmin;
-     background-color: black;
-     border: 0.3vmin solid white;
-     border-radius: 0vmin 5vmin 5vmin 0vmin;
- }
- 
- .search-sub:hover {
-     border: 0.3vmin solid #fffb00;
- }
- /* Drop Down List of years........................................  */
- 
- .btn {
-     height: 50%;
-     width: 50%;
-     gap: 1%;
- }
- 
- .line {
-     height: 0.4vmin;
-     width: 70%;
-     background-color: #ffffff;
-     border-radius: 5vmin;
-     margin-right: 2vmin;
- }
- 
- .btn label {
-     margin-right: 0.2vmin;
-     padding: 0 2vmin 0 2vmin;
-     height: 3.8vmin;
-     width: 15vmin;
-     background-color: #f7f7f7;
-     color: #000000;
-     display: flex;
-     align-items: center;
-     text-align: center;
-     font-size: 0.8rem;
- }
- 
- select {
-     background-color: black;
-     color: white;
-     border: 0.1vmin solid white;
-     transition: 0.3s ease;
-     margin-right: 2vmin;
-     border-radius: 0vmin;
- }
- 
- select:hover {
-     background-color: #ffffff;
-     color: black;
- }
- /* hero section ###############################################*/
- 
- main {
-     margin: 0vmin;
-     padding: 0vmin;
-     box-sizing: border-box;
- }
- /* hero img....................................................*/
- 
- .hero {
-     height: 100vh;
-     background: url('Logo pic/Movie-1.jpg') center/cover no-repeat fixed;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     color: white;
-     border-bottom: 1vmin solid #ffffff;
- }
- 
- .hero h1 {
-     font-size: 8vmin;
-     text-shadow: 0vmin 0vmin 5vmin rgb(255, 255, 255, 0.4);
-     background: black;
- }
- /* footer styling #############################################*/
- 
- footer {
-     background-color: black;
-     height: 100%;
-     width: 100%;
-     margin-top: 5vmin;
-     display: flex;
-     justify-content: center;
- }
- 
- .text-box {
-     width: 100vmin;
- }
- 
- .text-box p {
-     color: #f7f7f7;
-     padding: 5vmin;
-     font-family: Arial, Helvetica, sans-serif;
-     font-size: 1rem;
-     opacity: 60%;
-     text-align: center;
-     transition: opacity 0.5s ease;
-     line-height: 5vmin;
- }
- 
- .text-box p:hover {
-     opacity: 100%;
- }
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-color: #1b1b1b;
+}
+
+header {
+    flex-direction: column;
+}
+
+
+/* nav bar section  ###############################################*/
+
+.flex-align {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-bar {
+    height: 15vmin;
+    background-color: #3f2a56;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+
+/* logo ..................................................  */
+
+.logo {
+    margin-left: 2vmin;
+}
+
+.logo img {
+    height: 10vmin;
+    width: 10vmin;
+    border: 0.5vmin solid black;
+    border-radius: 10vmin;
+}
+
+
+/* search bar ..........................................  */
+
+.search-bar {
+    width: 50%;
+    padding: 0vmin 3vmin;
+    margin: 0vmin 3vmin;
+    border-left: 0.5vmin solid white;
+    border-right: 0.5vmin solid white;
+}
+
+.search-bar input {
+    padding: 1vmin 2vmin;
+    height: 7vmin;
+    width: 100%;
+    background-color: #000000;
+    color: #ffffff;
+    border: 0.3vmin solid white;
+    border-radius: 5vmin 0vmin 0vmin 5vmin;
+    font-size: 3vmin;
+}
+
+.search-bar input:hover {
+    border: 0.3vmin solid #fffb00;
+}
+
+.search-sub {
+    height: 9.2vmin;
+    width: 8vmin;
+    margin-left: 0.7vmin;
+    background-color: black;
+    border: 0.3vmin solid white;
+    border-radius: 0vmin 5vmin 5vmin 0vmin;
+}
+
+.search-sub:hover {
+    border: 0.3vmin solid #fffb00;
+}
+
+
+/* Drop Down List of years........................................  */
+
+.btn {
+    width: 50%;
+    gap: 1%;
+}
+
+.line {
+    height: 0.4vmin;
+    width: 70%;
+    background-color: #ffffff;
+    border-radius: 5vmin;
+    margin-right: 2vmin;
+}
+
+.btn label {
+    margin-right: 0.2vmin;
+    padding: 0 2vmin 0 2vmin;
+    height: 6.8vmin;
+    width: 15vmin;
+    background-color: #f7f7f7;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+select {
+    background-color: black;
+    color: white;
+    border: 0.1vmin solid white;
+    transition: 0.3s ease;
+    margin-right: 2vmin;
+    border-radius: 0vmin;
+    height: 6vmin;
+}
+
+select:hover {
+    background-color: #ffffff;
+    color: black;
+}
+
+
+/* hero section ###############################################*/
+
+main {
+    margin: 0vmin;
+    padding: 0vmin;
+    box-sizing: border-box;
+}
+
+
+/* hero img....................................................*/
+
+.hero {
+    height: 70vmin;
+    background: url('Logo pic/Movie-3.jpg') center no-repeat fixed;
+    background-size: cover;
+    aspect-ratio: 16/9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1vmin solid #ffffff;
+    width: 100%;
+}
+
+
+/* footer styling #############################################*/
+
+footer {
+    background-color: black;
+    height: 50vmin;
+    width: 100%;
+    margin-top: 5vmin;
+    display: flex;
+    justify-content: center;
+}
+
+.text-box {
+    width: 100vmin;
+}
+
+.text-box p {
+    color: #f7f7f7;
+    padding: 5vmin;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    opacity: 60%;
+    text-align: center;
+    transition: opacity 0.5s ease;
+    line-height: 5vmin;
+}
+
+.text-box p:hover {
+    opacity: 100%;
+}
