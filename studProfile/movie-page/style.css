@@ -138,15 +138,23 @@ main {
 /* hero img....................................................*/
 
 .hero {
-    height: 70vmin;
-    background: url('Logo pic/Movie-3.jpg') center no-repeat fixed;
+    height: 80vmin;
+    background: linear-gradient(#000, #550f6c, #33014e, #000) center no-repeat fixed;
     background-size: cover;
-    aspect-ratio: 16/9;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-bottom: 1vmin solid #ffffff;
-    width: 100%;
+    border-bottom: 1vmin solid #000;
+}
+
+.hero-text {
+    text-align: center;
+}
+
+.hero-text p {
+    color: white;
+    font-size: 2rem;
+    text-shadow: 0px 1vmin 1vmin black;
 }
 
 
@@ -154,7 +162,7 @@ main {
 
 footer {
     background-color: black;
-    height: 50vmin;
+    height: 90vmin;
     width: 100%;
     margin-top: 5vmin;
     display: flex;
